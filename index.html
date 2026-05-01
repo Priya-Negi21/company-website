@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <h2>NextGen</h2>
+
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <h1>We Help Businesses Grow Online</h1>
+            <p>Modern websites, fast performance, and stunning design.</p>
+            <button onclick="scrollToContact()">Get Started</button>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>
+                NextGen Web Solutions is a digital agency focused on building
+                responsive, high-performance websites that help businesses grow
+                in the online world.
+            </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with modern technologies.</p>
+                </div>
+
+                  <div class="card">
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your website visibility on search engines.</p>
+                </div>
+                  
+                <div class="card">
+                    <h3>UI/UX Design</h3>
+                    <p>Clean and user-friendly interface design.</p>
+                </div>
+
+              
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <h2>Ready to start your project?</h2>
+            <button onclick="scrollToContact()">Contact Us</button>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p id="statusMsg"></p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3>NextGen Web Solutions</h3>
+            <p>Building modern digital experiences</p>
+
+            <div class="socials">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+
+            <p>© 2026 NextGen. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <div id="toast"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
