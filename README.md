@@ -6,7 +6,7 @@ Designed to showcase services, improve user experience, and demonstrate frontend
 ---
 
 ## 🚀 Live Demo
-👉 nextgen-websolution.netlify.app
+👉 https://nextgen-websolution.netlify.app
 
 ---
 
@@ -85,8 +85,5 @@ company-website/
 📧 priyanegi8791@gmail.com  
 🔗 LinkedIn: https://linkedin.com/in/priya-negi-457b7a29a  
 💻 GitHub: https://github.com/Priya-Negi21  
-
----
-
 
 
